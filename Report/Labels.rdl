@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>8e61a15a-e2d1-402f-a74b-30ec0fa6f267</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Tablix Name="Tablix1">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>3.6031in</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>2.35839in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Rectangle Name="Rectangle1">
+                          <ReportItems>
+                            <Image Name="LogoLeft">
+                              <Source>Database</Source>
+                              <Value>=Fields!Little_Logo.Value</Value>
+                              <MIMEType>image/jpeg</MIMEType>
+                              <Sizing>FitProportional</Sizing>
+                              <Height>1.26975cm</Height>
+                              <Width>2cm</Width>
+                              <Visibility>
+                                <Hidden>=iif(Fields!LogoLeft.Value=true,false,true)</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                              </Style>
+                            </Image>
+                            <Image Name="LogoRight">
+                              <Source>Database</Source>
+                              <Value>=Fields!Little_Logo.Value</Value>
+                              <MIMEType>image/jpeg</MIMEType>
+                              <Sizing>FitProportional</Sizing>
+                              <Left>7.15187cm</Left>
+                              <Height>1.26975cm</Height>
+                              <Width>2cm</Width>
+                              <ZIndex>1</ZIndex>
+                              <Visibility>
+                                <Hidden>=iif(Fields!LogoRight.Value = true,false,true)</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                              </Style>
+                            </Image>
+                            <Rectangle Name="CompAdrTop">
+                              <ReportItems>
+                                <Textbox Name="Textbox1">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value>=Fields!CompanyAdr_1.Value</Value>
+                                          <Style>
+                                            <FontSize>8pt</FontSize>
+                                            <FontWeight>Bold</FontWeight>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Center</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox1</rd:DefaultName>
+                                  <Left>2cm</Left>
+                                  <Height>0.4cm</Height>
+                                  <Width>5.15187cm</Width>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox2">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value>=Fields!CompanyAdr_2.Value</Value>
+                                          <Style>
+                                            <FontSize>8pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Center</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox1</rd:DefaultName>
+                                  <Top>0.43523cm</Top>
+                                  <Left>2cm</Left>
+                                  <Height>0.4cm</Height>
+                                  <Width>5.15187cm</Width>
+                                  <ZIndex>1</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox4">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value>=Fields!CompanyAdr_3.Value</Value>
+                                          <Style>
+                                            <FontSize>8pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Center</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox1</rd:DefaultName>
+                                  <Top>0.86975cm</Top>
+                                  <Left>2cm</Left>
+                                  <Height>0.4cm</Height>
+                                  <Width>5.15187cm</Width>
+                                  <ZIndex>2</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                  </Style>
+                                </Textbox>
+                              </ReportItems>
+                              <KeepTogether>true</KeepTogether>
+                              <Height>1.26975cm</Height>
+                              <Width>9.15187cm</Width>
+                              <ZIndex>2</ZIndex>
+                              <Visibility>
+                                <Hidden>=iif(Fields!CompanyInfoTop.Value = true,false,true)</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <BottomBorder>
+                                  <Style>Solid</Style>
+                                </BottomBorder>
+                              </Style>
+                            </Rectangle>
+                            <Rectangle Name="CompAdrButtom">
+                              <ReportItems>
+                                <Textbox Name="Textbox3">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value>=Fields!CompanyAdr_1.Value</Value>
+                                          <Style>
+                                            <FontSize>8pt</FontSize>
+                                            <FontWeight>Bold</FontWeight>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Center</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox1</rd:DefaultName>
+                                  <Top>0.10523cm</Top>
+                                  <Height>0.4cm</Height>
+                                  <Width>9.15187cm</Width>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox5">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value>=Fields!CompanyAdr_2.Value</Value>
+                                          <Style>
+                                            <FontSize>8pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Center</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox1</rd:DefaultName>
+                                  <Top>0.52023cm</Top>
+                                  <Height>0.4cm</Height>
+                                  <Width>9.15187cm</Width>
+                                  <ZIndex>1</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox6">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value>=Fields!CompanyAdr_3.Value</Value>
+                                          <Style>
+                                            <FontSize>8pt</FontSize>
+                                          </Style>
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style>
+                                        <TextAlign>Center</TextAlign>
+                                      </Style>
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox1</rd:DefaultName>
+                                  <Top>0.95475cm</Top>
+                                  <Height>0.4cm</Height>
+                                  <Width>9.15187cm</Width>
+                                  <ZIndex>2</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                  </Style>
+                                </Textbox>
+                              </ReportItems>
+                              <KeepTogether>true</KeepTogether>
+                              <Top>4.54031cm</Top>
+                              <Height>1.45cm</Height>
+                              <Width>9.15187cm</Width>
+                              <ZIndex>3</ZIndex>
+                              <Visibility>
+                                <Hidden>=iif(Fields!CompanyInfoBottom.Value = True, False, True)</Hidden>
+                              </Visibility>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <TopBorder>
+                                  <Style>Solid</Style>
+                                </TopBorder>
+                              </Style>
+                            </Rectangle>
+                            <Rectangle Name="Rectangle4">
+                              <ReportItems>
+                                <Textbox Name="Textbox8">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value>=Fields!Adr_1.Value</Value>
+                                          <Style />
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style />
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox8</rd:DefaultName>
+                                  <Height>0.4cm</Height>
+                                  <Width>9.15187cm</Width>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>10pt</PaddingLeft>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox9">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value>=Fields!Adr_2.Value</Value>
+                                          <Style />
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style />
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox8</rd:DefaultName>
+                                  <Top>0.4cm</Top>
+                                  <Height>0.4cm</Height>
+                                  <Width>9.15187cm</Width>
+                                  <ZIndex>1</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>10pt</PaddingLeft>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox10">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value>=Fields!Adr_3.Value</Value>
+                                          <Style />
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style />
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox8</rd:DefaultName>
+                                  <Top>0.8cm</Top>
+                                  <Height>0.4cm</Height>
+                                  <Width>9.15187cm</Width>
+                                  <ZIndex>2</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>10pt</PaddingLeft>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox11">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value>=Fields!Adr_4.Value</Value>
+                                          <Style />
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style />
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox8</rd:DefaultName>
+                                  <Top>1.2cm</Top>
+                                  <Height>0.4cm</Height>
+                                  <Width>9.15187cm</Width>
+                                  <ZIndex>3</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>10pt</PaddingLeft>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox12">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value>=Fields!Adr_5.Value</Value>
+                                          <Style />
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style />
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox8</rd:DefaultName>
+                                  <Top>1.6cm</Top>
+                                  <Height>0.4cm</Height>
+                                  <Width>9.15187cm</Width>
+                                  <ZIndex>4</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>10pt</PaddingLeft>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox13">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value>=Fields!Adr_6.Value</Value>
+                                          <Style />
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style />
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox8</rd:DefaultName>
+                                  <Top>2cm</Top>
+                                  <Height>0.4cm</Height>
+                                  <Width>9.15187cm</Width>
+                                  <ZIndex>5</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>10pt</PaddingLeft>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox14">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value>=Fields!Adr_7.Value</Value>
+                                          <Style />
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style />
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox8</rd:DefaultName>
+                                  <Top>2.4cm</Top>
+                                  <Height>0.4cm</Height>
+                                  <Width>9.15187cm</Width>
+                                  <ZIndex>6</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>10pt</PaddingLeft>
+                                  </Style>
+                                </Textbox>
+                                <Textbox Name="Textbox15">
+                                  <CanGrow>true</CanGrow>
+                                  <KeepTogether>true</KeepTogether>
+                                  <Paragraphs>
+                                    <Paragraph>
+                                      <TextRuns>
+                                        <TextRun>
+                                          <Value>=Fields!Adr_8.Value</Value>
+                                          <Style />
+                                        </TextRun>
+                                      </TextRuns>
+                                      <Style />
+                                    </Paragraph>
+                                  </Paragraphs>
+                                  <rd:DefaultName>Textbox8</rd:DefaultName>
+                                  <Top>2.8cm</Top>
+                                  <Height>0.4cm</Height>
+                                  <Width>9.15187cm</Width>
+                                  <ZIndex>7</ZIndex>
+                                  <Style>
+                                    <Border>
+                                      <Style>None</Style>
+                                    </Border>
+                                    <PaddingLeft>10pt</PaddingLeft>
+                                  </Style>
+                                </Textbox>
+                              </ReportItems>
+                              <KeepTogether>true</KeepTogether>
+                              <Top>1.30503cm</Top>
+                              <Height>3.2cm</Height>
+                              <Width>9.15187cm</Width>
+                              <ZIndex>4</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                              </Style>
+                            </Rectangle>
+                          </ReportItems>
+                          <KeepTogether>true</KeepTogether>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                          </Style>
+                        </Rectangle>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="Details" />
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>DataSet_Result</DataSetName>
+            <Height>2.35839in</Height>
+            <Width>3.6031in</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+        </ReportItems>
+        <Height>5.99031cm</Height>
+        <Style />
+      </Body>
+      <Width>9.15187cm</Width>
+      <Page>
+        <PageHeight>7cm</PageHeight>
+        <PageWidth>10cm</PageWidth>
+        <LeftMargin>0.5cm</LeftMargin>
+        <RightMargin>0.5cm</RightMargin>
+        <TopMargin>0.5cm</TopMargin>
+        <BottomMargin>0.5cm</BottomMargin>
+        <ColumnSpacing>1.27cm</ColumnSpacing>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="Adr_1">
+          <DataField>Adr_1</DataField>
+        </Field>
+        <Field Name="Adr_2">
+          <DataField>Adr_2</DataField>
+        </Field>
+        <Field Name="Adr_3">
+          <DataField>Adr_3</DataField>
+        </Field>
+        <Field Name="Adr_4">
+          <DataField>Adr_4</DataField>
+        </Field>
+        <Field Name="Adr_5">
+          <DataField>Adr_5</DataField>
+        </Field>
+        <Field Name="Adr_6">
+          <DataField>Adr_6</DataField>
+        </Field>
+        <Field Name="Adr_7">
+          <DataField>Adr_7</DataField>
+        </Field>
+        <Field Name="Adr_8">
+          <DataField>Adr_8</DataField>
+        </Field>
+        <Field Name="Little_Logo">
+          <DataField>Little_Logo</DataField>
+        </Field>
+        <Field Name="Little_Logo_Placemant">
+          <DataField>Little_Logo_Placemant</DataField>
+        </Field>
+        <Field Name="Little_Company_Adresse_Placemant">
+          <DataField>Little_Company_Adresse_Placemant</DataField>
+        </Field>
+        <Field Name="LogoLeft">
+          <DataField>LogoLeft</DataField>
+        </Field>
+        <Field Name="LogoRight">
+          <DataField>LogoRight</DataField>
+        </Field>
+        <Field Name="CompanyInfoTop">
+          <DataField>CompanyInfoTop</DataField>
+        </Field>
+        <Field Name="CompanyInfoBottom">
+          <DataField>CompanyInfoBottom</DataField>
+        </Field>
+        <Field Name="CompanyAdr_1">
+          <DataField>CompanyAdr_1</DataField>
+        </Field>
+        <Field Name="CompanyAdr_2">
+          <DataField>CompanyAdr_2</DataField>
+        </Field>
+        <Field Name="CompanyAdr_3">
+          <DataField>CompanyAdr_3</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

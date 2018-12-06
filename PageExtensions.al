@@ -1,0 +1,86 @@
+pageextension 50100 "Customer card" extends "Customer Card"
+{
+    layout
+    {
+       // Add changes to page layout here        
+    }
+
+    actions
+    {
+        // Add changes to page actions her
+        addlast(Creation)
+        {
+            group(PrintLabelGroup)
+            {
+                CaptionML = ENU = 'Print label', DAN = 'Print label';
+                image = PrintCover;
+                action(PrintSmallLabel)
+                {
+                CaptionML = ENU = 'Print little label', DAN = 'Print lille label';
+                image = Print;
+                trigger OnAction();
+                begin
+                    if not LabelSetAddress.LabelsActive(1) then
+                        error(NotActive);
+                    Clear(LabelSetAddress);
+                    recref.gettable(rec);
+                    LabelSetAddress.SetAddress(recref,0);
+                end;
+                }
+                action(PrintMiddelLabel)
+                {
+                CaptionML = ENU = 'Print middel label', DAN = 'Print mellem label';
+                image = PrintCover;
+
+                trigger OnAction();
+                begin
+                    if not LabelSetAddress.LabelsActive(2) then
+                        error(NotActive);
+                    Clear(LabelSetAddress);
+                    recref.gettable(rec);
+                    LabelSetAddress.SetAddress(recref,1);
+                end;
+                }
+
+                action(PrintLargeLabel)
+                {
+                CaptionML = ENU = 'Print big label', DAN = 'Print stor label';
+                image = PrintCover;
+
+                trigger OnAction();
+                begin
+                    message('Stor Label')
+                end;
+                }
+
+            }
+        }        
+    }
+    var
+       LabelSetAddress : Codeunit 50100;
+       RecRef : RecordRef;
+       NotActive : TextConst ENU='Label not active!',DAN='Label er ikke aktiv!';
+}
+pageextension 50101 RoleCenter extends "Order Processor Role Center"
+{
+    actions
+    {
+        addlast(Processing)
+        {
+                group("Labels")
+                {
+                    CaptionML = ENU='Label', DAN='Labels';
+                    Image = PrintCover;
+                    
+                action("Setup")
+                {
+                    image = Setup;
+                    CaptionML = ENU='Label Setup', DAN='Label opsætning';
+                    ApplicationArea = All;
+                    RunObject = page "Label Setup";
+                    
+                }
+            }
+        }
+    }
+}

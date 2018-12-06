@@ -1,0 +1,22 @@
+{
+  "id": "fdd1b3ef-c038-4625-a57a-1c80d3fa90c1",
+  "name": "Labels",
+  "publisher": "JNI-Vesterris",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.1",
+    "privacyStatement": "",
+  "EULA": "",
+  "help": "http://vesterris.dk",
+  "url": "http://vesterris.dk",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.1",
+  "application": "11.0.0.1",
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  }
+}
