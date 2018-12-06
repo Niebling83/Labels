@@ -10,12 +10,12 @@ page 50100 "Label Setup"
         {
             group(Generel)
             {
-                CaptionML = ENU='Generel', DAN='Generelt';
+                Caption='Generelt';
                 field(Activ;Active){}
             }
             group(LittleLabel)
             {
-                CaptionML = ENU='Littel label', DAN='Lille label';
+                Caption ='Lille label';
                 field("Little active";"Little active")
                 {
                     Editable=true;
@@ -26,7 +26,7 @@ page 50100 "Label Setup"
             }
             group(MiddelLabel)
             {
-                CaptionML = ENU='Middel label', DAN='Mellem label';
+                Caption='Mellem label';
                 field("Middel Active";"Middel Active"){}
                 field("Middel Logo";"Middel Logo"){}
                 field("Middel Logo Placemant";"Middel Logo Placemant"){}
@@ -34,7 +34,7 @@ page 50100 "Label Setup"
             }
             group(LargeLabel)
             {
-                CaptionML = ENU='Large label', DAN='Stor label';
+                Caption='Stor label';
                 field("Large Active";"Large Active"){}
                 field("Large Logo";"Large Logo"){}
                 field("Large Logo Placemant";"Large Logo Placemant"){}

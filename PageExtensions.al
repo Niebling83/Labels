@@ -12,11 +12,11 @@ pageextension 50100 "Customer card" extends "Customer Card"
         {
             group(PrintLabelGroup)
             {
-                CaptionML = ENU = 'Print label', DAN = 'Print label';
+                Caption = 'Print label';
                 image = PrintCover;
                 action(PrintSmallLabel)
                 {
-                CaptionML = ENU = 'Print little label', DAN = 'Print lille label';
+                Caption = 'Print lille label';
                 image = Print;
                 trigger OnAction();
                 begin
@@ -29,7 +29,7 @@ pageextension 50100 "Customer card" extends "Customer Card"
                 }
                 action(PrintMiddelLabel)
                 {
-                CaptionML = ENU = 'Print middel label', DAN = 'Print mellem label';
+                Caption = 'Print mellem label';
                 image = PrintCover;
 
                 trigger OnAction();
@@ -44,7 +44,7 @@ pageextension 50100 "Customer card" extends "Customer Card"
 
                 action(PrintLargeLabel)
                 {
-                CaptionML = ENU = 'Print big label', DAN = 'Print stor label';
+                Caption = 'Print stor label';
                 image = PrintCover;
 
                 trigger OnAction();
@@ -59,7 +59,7 @@ pageextension 50100 "Customer card" extends "Customer Card"
     var
        LabelSetAddress : Codeunit 50100;
        RecRef : RecordRef;
-       NotActive : TextConst ENU='Label not active!',DAN='Label er ikke aktiv!';
+       NotActive : Label 'Label er ikke aktiv!';
 }
 pageextension 50101 RoleCenter extends "Order Processor Role Center"
 {
@@ -69,13 +69,13 @@ pageextension 50101 RoleCenter extends "Order Processor Role Center"
         {
                 group("Labels")
                 {
-                    CaptionML = ENU='Label', DAN='Labels';
+                    Caption = 'Labels';
                     Image = PrintCover;
                     
                 action("Setup")
                 {
                     image = Setup;
-                    CaptionML = ENU='Label Setup', DAN='Label opsætning';
+                    Caption = 'Label opsætning';
                     ApplicationArea = All;
                     RunObject = page "Label Setup";
                     

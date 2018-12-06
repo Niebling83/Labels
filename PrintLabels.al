@@ -77,7 +77,7 @@ codeunit 50100 "Print Labels"
         CompanyInfo  : Record "Company Information";
         labelSetup : Record "Labels Setup";
         FormatAdr : Codeunit "Format Address";
-        NotSupported : TextConst ENU='Record Not Supported', DAN='Valgte tabel er ikke understøttet';
+        NotSupported : label 'Valgte tabel er ikke understøttet';
         PrintLAbels : Report 50100;
         PrintMiddelLabel : Report 50101;
 

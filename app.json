@@ -18,5 +18,9 @@
   "idRange": {
     "from": 50100,
     "to": 50149
-  }
+  },
+  "runtime": "2.1",
+  "showMyCode": true,
+  "features": ["TranslationFile"],
+  "target": "Internal"
 }

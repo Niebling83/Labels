@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Labels">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 651437510 - Field 3475288728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 651437510 - Field 1090351696 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Aktiv</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Active - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 651437510 - Field 501286804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lille Aktiv</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Little Active - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 651437510 - Field 3987762601 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Logo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Little Logo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 651437510 - Field 1331686558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Logo placering</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Little Logo Placemant - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 651437510 - Field 1331686558 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Venstre,Højre</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Little Logo Placemant - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 651437510 - Field 1805643811 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Virksomheds information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Little CompAdr. Placemant - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 651437510 - Field 1805643811 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Top,Bund</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Little CompAdr. Placemant - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 651437510 - Field 2937450515 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mellem Aktiv</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Middel Active - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 651437510 - Field 2259944186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Logo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Middel Logo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 651437510 - Field 1904355469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Logo placering</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Middel Logo Placemant - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 651437510 - Field 1904355469 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Venstre,Højre</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Middel Logo Placemant - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 651437510 - Field 2817801444 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Virksomheds information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Middel CompAdr. Placemant - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 651437510 - Field 2817801444 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Top,Bund</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Middel CompAdr. Placemant - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 651437510 - Field 4185171883 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mellem Aktiv</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Large Active - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 651437510 - Field 43448370 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Logo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Large Logo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 651437510 - Field 2605917109 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Logo placering</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Large Logo Placemant - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 651437510 - Field 2605917109 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Venstre,Højre</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Large Logo Placemant - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 651437510 - Field 3267870348 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Virksomheds information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Large CompAdr. Placemant - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 651437510 - Field 3267870348 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Top,Bund</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Labels Setup - Field Large CompAdr. Placemant - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2049898456 - NamedType 4072201221" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valgte tabel er ikke understøttet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Print Labels - NamedType NotSupported</note>
+        </trans-unit>
+        <trans-unit id="Page 3020265747 - Control 29657926 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generelt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Label Setup - Control Generel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3020265747 - Control 1948277478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lille label</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Label Setup - Control LittleLabel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3020265747 - Control 3009067925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mellem label</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Label Setup - Control MiddelLabel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3020265747 - Control 1395209597 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stor label</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Label Setup - Control LargeLabel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4262637588 - Action 2714403372 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print label</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer card - Action PrintLabelGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4262637588 - Action 179916708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print lille label</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer card - Action PrintSmallLabel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4262637588 - Action 2663774782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print mellem label</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer card - Action PrintMiddelLabel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4262637588 - Action 3954875950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print stor label</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer card - Action PrintLargeLabel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4262637588 - NamedType 856087819" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Label er ikke aktiv!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer card - NamedType NotActive</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2134858097 - Action 2496062775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Labels</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension RoleCenter - Action Labels - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2134858097 - Action 1514883969 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Label opsætning</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension RoleCenter - Action Setup - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
